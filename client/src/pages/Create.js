@@ -16,7 +16,7 @@ export default function Create() {
       setRecipe(null);
 
       try {
-        const response = await fetch('http://localhost:5000/api/recipes/generate', {
+        const response = await fetch('https://recipe-app-production-5cb3.up.railway.app/api/recipes/generate', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
