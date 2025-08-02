@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fffaf4;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+.content {
+  padding: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #ff7a18;
+}
